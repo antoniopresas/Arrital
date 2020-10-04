@@ -25,6 +25,10 @@ footer {
     width: 100%;
 }
 
+.footer-nav{
+  background-color: #19191B;
+}
+
 .rrss {
     height: 25px;
 }

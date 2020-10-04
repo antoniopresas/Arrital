@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Antonio\Desktop\SanRoque\SanRoque\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! /home/antonio/Documentos/Proyectos web/SanRoque-master/src/polyfills.ts */"hN/g");
 
 
 /***/ }),

@@ -7,9 +7,9 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Antonio\Desktop\SanRoque\SanRoque\node_modules\animate.css\animate.min.css */"Szx7");
-__webpack_require__(/*! C:\Users\Antonio\Desktop\SanRoque\SanRoque\src\styles.css */"OmL/");
-module.exports = __webpack_require__(/*! C:\Users\Antonio\Desktop\SanRoque\SanRoque\node_modules\bootstrap\dist\css\bootstrap.min.css */"q4sD");
+__webpack_require__(/*! /home/antonio/Documentos/Proyectos web/SanRoque-master/node_modules/animate.css/animate.min.css */"Szx7");
+__webpack_require__(/*! /home/antonio/Documentos/Proyectos web/SanRoque-master/src/styles.css */"OmL/");
+module.exports = __webpack_require__(/*! /home/antonio/Documentos/Proyectos web/SanRoque-master/node_modules/bootstrap/dist/css/bootstrap.min.css */"q4sD");
 
 
 /***/ }),

@@ -16,12 +16,12 @@
 }
 
 .INNOVACIÓN_Y_DISEÑO {
+    margin-top: 0;
     font-size: 19px;
     font-family: "Jost";
     font-weight: 300;
     letter-spacing: 0.46em;
-    padding-left: 6px;
-    color: rgb(0, 0, 0);
+    color: white !important;
 }
 
 
@@ -60,6 +60,11 @@ body {
 
 /* Personalización de cabecera */
 
+.bg-nav{
+  background-color: #19191B;
+  justify-content: center;
+}
+
 header {
     display: flexbox;
     position: relative;
@@ -78,6 +83,10 @@ header {
 .milogo {
     max-height: 100px;
     margin-right: 15px;
+}
+
+.milogo1{
+    max-width: 150px;
 }
 
 .homeheader {
