@@ -1,0 +1,14 @@
+<div class="sticky-top">
+  <nav id="navbar-example2" class="navbar pages navbar-expand-sm navbar-light bg-dark">
+      <a class="navbar-brand" routerLink="home">
+          <img class="home" src="assets/img/homew.png">
+      </a>
+      <ul class="nav">
+          <li class="nav-item" *ngFor="let item of items">
+              <a class="nav-link" href="{{item.refe}}" routerLinkActive="active">
+                <span>{{item.titulo}}</span>
+              </a>
+          </li>
+      </ul>
+  </nav>
+</div>

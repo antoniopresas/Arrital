@@ -1,0 +1,107 @@
+
+
+
+/* Estilos contenedor */
+
+.container-fluid {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    -webkit-perspective: 1px;
+    perspective: 1px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+h4 {
+    padding-top: 70px;
+}
+
+p {
+    color: #343A40;
+    margin: 0px auto;
+}
+
+
+/* Contenedores y "Paralax" */
+
+.paralax1 {
+    background-image: url("src/assets/img/Arredo3_asia_05small.jpg");
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.paralax2 {
+    background-image: url("src/assets/img/catalano.jpg");
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.paralax1>div>span>p,
+.paralax2>div>span>p {
+    padding: 0px 0px 5px 0px;
+    color: white;
+}
+
+.container-sm {
+    height: 104vh;
+    white-space: pre-line;
+}
+
+body>div.container-fluid.data-spy\=>div.subcontent.container-sm {
+    background-color: white;
+    color: black !important;
+}
+
+body>div.container-fluid.data-spy\=>div.subcontent.container-sm>p {
+    color: black
+}
+
+.intodetail {
+    display: inline-flex;
+    background-color: rgba(0, 0, 0, 0.600);
+    width: 60%;
+    height: 42%;
+    justify-content: space-around;
+    flex-flow: column;
+    align-items: center;
+}
+
+button:hover {
+    color: black !important;
+    enable-background: white !important;
+}
+
+
+/* Contenedor de páginas creadas */
+
+.contenido {
+    display: flex;
+    text-align: justify;
+    line-height: 26px;
+    padding: 32px;
+    margin: 30px 20px 20px 20px;
+    background-color: #F8F9FA;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width:530px) {
+    .homeheader {
+        max-height: 80px;
+        margin-top: 40px;
+    }
+}

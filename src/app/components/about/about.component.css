@@ -1,0 +1,10 @@
+/* Contenedor de páginas creadas */
+
+.contenido {
+    display: flex;
+    text-align: justify;
+    line-height: 26px;
+    padding: 32px;
+    margin: 30px 20px 20px 20px;
+    background-color: #F8F9FA;
+}
